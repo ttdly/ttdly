@@ -23,7 +23,7 @@ Contributed to                         3
 2023-02-03 <a href="https://blog.152527.xyz/posts/1.html" target="_blank">结合GitHub Issues与VitePress写博客</a>
 </pre>
 <pre>
-📊 <strong>Past 20 Days I Spent My Time On</strong>
+📊 <strong>Past 21 Days I Spent My Time On</strong>
 
 JavaScript              1 d 5 h 31 m 5 s   ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   37.68%
 TypeScript                11 h 10 m 54 s   ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   14.27%
