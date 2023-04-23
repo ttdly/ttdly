@@ -23,7 +23,7 @@ Contributed to                         3
 2023-02-03 <a href="https://blog.152527.xyz/posts/1.html" target="_blank">结合GitHub Issues与VitePress写博客</a>
 </pre>
 <pre>
-📊 <strong>Past 30 Days I Spent My Time On</strong>
+📊 <strong>Past 31 Days I Spent My Time On</strong>
 
 JavaScript             1 d 6 h 39 m 45 s   ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   36.74%
 Vue.js                     14 h 41 m 9 s   ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.60%
