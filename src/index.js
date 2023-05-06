@@ -33,7 +33,8 @@ async function run() {
       `\n${dateStr} <a href="${baseURL}${elem.number}.html" target="_blank">${elem.title}</a>`;
   }
   posts += `\n</pre>\n\n`;
-  readme = baseInfo + posts;
+  const time = `\n更新时间:${new Date().toLocaleDateString("zh-CN")}`;
+  readme = baseInfo + posts + time;
   fs.writeFileSync("README.md", readme);
 }
 
