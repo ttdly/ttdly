@@ -9796,6 +9796,7 @@ const octokit = github.getOctokit(process.argv[2]);
 const fetcher = octokit.graphql;
 
 async function run() {
+  fs.copyFileSync("README.md","README.md.bak")
   let readme = "";
   let posts = `\n<pre>\n<strong>近期发布</strong>\n`;
   const baseURL = "https://blog.152527.xyz/posts/";

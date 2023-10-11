@@ -5,6 +5,7 @@ const octokit = github.getOctokit(process.argv[2]);
 const fetcher = octokit.graphql;
 
 async function run() {
+  fs.copyFileSync("README.md","README.md.bak")
   let readme = "";
   let posts = `\n<pre>\n<strong>近期发布</strong>\n`;
   const baseURL = "https://blog.152527.xyz/posts/";
@@ -33,8 +34,7 @@ async function run() {
       `\n${dateStr} <a href="${baseURL}${elem.number}.html" target="_blank">${elem.title}</a>`;
   }
   posts += `\n</pre>\n\n`;
-  const time = `\n更新时间:${new Date().toLocaleDateString("zh-CN")}`;
-  readme = baseInfo + posts + time;
+  readme = baseInfo + posts;
   fs.writeFileSync("README.md", readme);
 }
 
